@@ -1,1 +1,1 @@
-worker:cd $HOME/Release/ && dotnet MySohaBot.dll
+worker:cd $HOME/Debug/net5.0/ && dotnet MySohaBot.dll
