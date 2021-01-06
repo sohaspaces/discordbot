@@ -1,4 +1,3 @@
 libgdiplus
 https://packages.microsoft.com/config/ubuntu/16.04/packages-microsoft-prod.deb
-update
-dotnet-sdk-5.0
+dotnet-sdk-3.1
