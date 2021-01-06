@@ -1,1 +1,1 @@
-worker: cd Debug && rm -rf ./runtime/*.* &&  wget -O ./runtime.tar.gz https://dotnetcli.blob.core.windows.net/dotnet/Runtime/5.0.1/dotnet-runtime-5.0.1-linux-x64.tar.gz && tar -zcvf ./runtime.tar.gz ./runtime/ && cd net5.0 && ../runtime/dotnet MySohaBot.dll
+worker: cd Debug ; rm -rf ./runtime/*.* ;  wget -O ./runtime.tar.gz https://dotnetcli.blob.core.windows.net/dotnet/Runtime/5.0.1/dotnet-runtime-5.0.1-linux-x64.tar.gz ; tar -zxvf ./runtime.tar.gz -C ./runtime/ ; cd net5.0 ; ../runtime/dotnet MySohaBot.dll
