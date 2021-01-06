@@ -1,4 +1,3 @@
 libgdiplus
-:repo:deb https://packages.microsoft.com/ubuntu/
 https://packages.microsoft.com/config/ubuntu/20.10/packages-microsoft-prod.deb
-dotnet-sdk-5.0
+dotnet-runtime-5.0
